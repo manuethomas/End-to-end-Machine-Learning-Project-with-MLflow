@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/154748da42494d25ae8597f090334c51/artifacts
+end_time: 1729359608811
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 154748da42494d25ae8597f090334c51
+run_name: efficient-horse-642
+run_uuid: 154748da42494d25ae8597f090334c51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729359605362
+status: 4
+tags: []
+user_id: Manu
