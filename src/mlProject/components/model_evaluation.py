@@ -10,8 +10,9 @@ import joblib
 from mlProject.entity.config_entity import ModelEvaluationConfig
 from mlProject.utils.common import save_json
 
-import dagshub
-dagshub.init(repo_owner='manuethomas', repo_name='End-to-end-Machine-Learning-Project-with-MLflow', mlflow=True)
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/manuethomas/End-to-end-Machine-Learning-Project-with-MLflow.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="manuethomas"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="d96dee113dbe311be519d00d503fd24576852f25"
 
 
 class ModelEvaluation:
